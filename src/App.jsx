@@ -4,7 +4,7 @@ import {
   Footer,
   Hero,
   PopularProducts,
-  Services,
+  // Services,
   SpecialOffer,
   Subscribe,
   SuperQuality,
@@ -23,9 +23,9 @@ const App = () => {
       <section className="padding">
         <SuperQuality />
       </section>
-      <section className="padding-x py-10">
+      {/* <section className="padding-x py-10">
         <Services />
-      </section>
+      </section> */}
       <section className="padding">
         <SpecialOffer />
       </section>

@@ -53,22 +53,26 @@ export const products = [
   {
     imgURL: shoe4,
     name: "Nike Air Jordan-01",
-    price: "$200.20",
+    price: "₹2299",
+    rating: "(4.5)",
   },
   {
     imgURL: shoe5,
     name: "Nike Air Jordan-10",
-    price: "$210.20",
+    price: "₹3599",
+    rating: "(4.7)",
   },
   {
     imgURL: shoe6,
     name: "Nike Air Jordan-100",
-    price: "$220.20",
+    price: "₹1999",
+    rating: "(4.0)",
   },
   {
     imgURL: shoe7,
     name: "Nike Air Jordan-001",
-    price: "$230.20",
+    price: "₹2799",
+    rating: "(4.1)",
   },
 ];
 
@@ -94,15 +98,15 @@ export const services = [
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
+    customerName: "William Jhons",
     rating: 4.5,
     feedback:
       "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
+    customerName: "Emmy Gillbert",
+    rating: 4.2,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
   },
@@ -134,13 +138,13 @@ export const footerLinks = [
     title: "Get in touch",
     links: [
       { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "+918554862354", link: "tel:+919554862354" },
     ],
   },
 ];
 
 export const socialMedia = [
   { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
+  { src: twitter, alt: "X logo" },
   { src: instagram, alt: "instagram logo" },
 ];
